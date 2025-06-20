@@ -1,0 +1,52 @@
+body{
+      background-color: rgb(25,25,25);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .title{
+      margin:0;
+      font-size: 50px;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .first-div{     
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 50px;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+    img{
+      width: 60px;
+      height: 60px;
+      
+    }
+    .rock-btn,
+    .paper-btn,
+    .scissors-btn{
+      border-radius: 1000px;
+      border:5px solid white;
+      background-color: black;
+      padding: 30px;
+      margin: 25px;
+      cursor: pointer;
+      
+      
+    }
+    .second-div{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;  
+    }
+    .reset-btn{
+      background-color: whitesmoke;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+      height: 45px;
+      width: 100px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+    }
